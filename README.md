@@ -1,5 +1,15 @@
 # AppNoticias
 
+Lenguaje Backend: FastAPI - python
+Base de datos: Postgresql
+
+Tanto el backend como la base de datos se subieron a Heroku, en el backend se guarda la contraseña encriptada y al loguearse se genera un Token.
+
+Link API Login: https://app-postgresprueba.herokuapp.com/docs
+Credenciales: username: 100, password: 123456789
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
 
 ## Development server
