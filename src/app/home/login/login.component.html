@@ -1,0 +1,16 @@
+<div class="login">
+  <div class="form-container">
+
+      <p class="title">Ingresa las credenciales de tu cuenta</p>
+
+      <form action="" class="form">
+          <label for="password">Username</label>
+          <input type="text" name="password"  [(ngModel)]="dataUser.username" placeholder="Ingresa tu Usuario"
+              class="input input-password">
+          <label for="new-password">Password</label>
+          <input type="password" name="new-password"  [(ngModel)]="dataUser.password" placeholder="*********"
+              class="input input-password">
+          <input type="button" (click)="login()" value="Confirm" class="primary-button login-button">
+      </form>
+  </div>
+</div>

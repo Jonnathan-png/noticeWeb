@@ -1,0 +1,26 @@
+<div class="container">
+
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Noticias al Día</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="grid-container" >
+    <div class="" *ngFor="let item of noticeData">
+      <div class="card" style="width: 18rem;">
+        <img src="{{item['urlToImage']}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item['title']}}</h5>
+          <p class="card-text">{{item['publishedAt']}}</p>
+          <a class="btn btn-primary" [routerLink]="['/detaillsPage/', item]"
+          >Ver detalles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

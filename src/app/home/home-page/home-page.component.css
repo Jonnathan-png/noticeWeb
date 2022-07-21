@@ -1,0 +1,21 @@
+.container{
+  background-color: beige;
+}
+
+.grid-container {
+  width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 300px);
+  place-content: center;
+  padding: 10px;
+  gap: 1rem;
+  margin-top: 50px;
+}
+
+.card {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: #ffff;
+
+}

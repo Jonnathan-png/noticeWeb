@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_Login : "https://app-postgresprueba.herokuapp.com",
+  API_Noticias: "https://newsapi.org/v2/top-headlines"
 };
 
 /*
