@@ -1,7 +1,11 @@
 # AppNoticias
 
 Lenguaje Backend: FastAPI - python
+
 Base de datos: Postgresql
+
+Interfaz gráfica web: Framework Angular
+
 
 Tanto el backend como la base de datos se subieron a Heroku, en el backend se guarda la contraseña encriptada y al loguearse se genera un Token.
 
