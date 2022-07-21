@@ -5,7 +5,8 @@
 export const environment = {
   production: false,
   API_Login : "https://app-postgresprueba.herokuapp.com",
-  API_Noticias: "https://newsapi.org/v2/top-headlines"
+  API_Noticias: "https://newsapi.org/v2/top-headlines",
+  API_Clima: "https://api.openweathermap.org/data/2.5/weather"
 };
 
 /*
